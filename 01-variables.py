@@ -17,3 +17,13 @@ print(my_variable, my_int_variable, my_bool_variable) #->Concatena los valores d
 my_int_to_str_variable = str(my_int_variable)
 print(my_int_to_str_variable)
 print(type(my_int_to_str_variable)) #-> Type Integer
+
+#creamos variables en una misma linea
+#name, surname, alias, age = "jefry", "yair", "yfryxv", 20
+#print("me llamo", name, surname, "mi edad es de",age, "y mi alias es" , alias)
+
+name=(input("cual es tu nombre: "))
+age=(input("cual es tu edad: "))
+
+print(name)
+print(age)
