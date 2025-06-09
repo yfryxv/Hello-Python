@@ -7,4 +7,4 @@ print(type(1)) #-> Type Integer
 print(type(1.0)) #-> Type Float
 print(type(True)) #-> Type Boolean
 
-print("hola amiguitos")
+print("hola amiguitos") 
