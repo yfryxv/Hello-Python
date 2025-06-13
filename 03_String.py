@@ -29,3 +29,19 @@ print(lenguaje_slice) # Imprime una parte de la cadena (desde el índice 1 hasta
 
 lenguaje_reves = lenguaje[::-1]
 print(lenguaje_reves)  # Imprime la cadena al revés
+
+print(lenguaje.capitalize())  # Capitaliza la primera letra de la cadena
+print(lenguaje.upper())  # Convierte toda la cadena a mayúsculas
+print(lenguaje.lower())  # Convierte toda la cadena a minúsculas    
+print(lenguaje.count("o"))  # Cuenta cuántas veces aparece la letra "o" en la cadena
+print(lenguaje.find("P"))  # Encuentra la posición de la letra "P" en la cadena
+print(lenguaje.replace("P", "J"))  # Reemplaza la letra "P" por "J" en la cadena
+print(lenguaje.startswith("P"))  # Verifica si la cadena comienza con "P"
+print(lenguaje.endswith("n"))  # Verifica si la cadena termina con "n"
+print(lenguaje.split("t"))  # Divide la cadena en una lista usando "t" como separador
+print(lenguaje.isnumeric())  # Verifica si la cadena es numérica (False en este caso)
+print(lenguaje.isalpha())  # Verifica si la cadena contiene solo letras (True en este caso)
+print(lenguaje.isalnum())  # Verifica si la cadena es alfanumérica (True en este caso)
+print(lenguaje.isspace())  # Verifica si la cadena contiene solo espacios (False en este caso)
+print(lenguaje.index("y"))  # Encuentra la posición de la letra "y" en la cadena
+
