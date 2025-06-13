@@ -33,3 +33,7 @@ my_name = "yefry"
 edad = 20
 
 print("mi nombre es", my_name, "y mi edad es", edad)
+
+print(len(my_name)) #-> Imprime la longitud de la variable my_name
+#Imprimimos el tipo de dato de la variable
+print(type(my_name)) #-> Type String
